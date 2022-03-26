@@ -1,0 +1,41 @@
+body {
+  padding: 55px 0 0 0;
+  margin: 0 0 0 0;
+}
+.bg-color-naranja {
+  background-color: rgba(228, 144, 20, 0.85);
+}
+
+.card-img-top {
+  height: 40vh;
+  object-fit: scale-down;
+}
+
+.parallax {
+  background-image: url("../images/textura_parallax.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-display: center;
+  height: 18vh;
+}
+
+#boton-buscar:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(129, 129, 129) !important;
+}
+
+.card:hover {
+  border-color: rgb(120, 29, 180);
+  color: rgb(53, 151, 158);
+}
+
+.col {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  font-size: large;
+}
